@@ -1,5 +1,6 @@
 @use "mixins";
 @use "normalize";
+
 //Seccion Variables//
 
 //Colores//
@@ -12,8 +13,4 @@ $timberWolf: #d3d3d3;
 body {
   background-color: $timberWolf;
   @include mixins.crearFlex(column, center, center, center, inherit);
-}
-
-header {
-  @include mixins.crearFlex(row, space-between, center, center, inherit);
 }
